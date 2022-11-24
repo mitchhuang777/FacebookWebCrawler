@@ -35,7 +35,7 @@ The process of the FacebookWebCrawler.py
 
 Searching for a keyword 
 
-![image](https://user-images.githubusercontent.com/79703512/203686504-cde28c9c-a3c3-460d-a44c-eec6f4376b53.png) wholesales
+![image](https://user-images.githubusercontent.com/79703512/203686504-cde28c9c-a3c3-460d-a44c-eec6f4376b53.png) 批發 (wholesales)
 
 The year of the article
 
