@@ -1,39 +1,58 @@
 # FacebookWebCrawler
 The FacebookWebCrawler would automatically find the urls with specific conditoins, and store the urls into txt file.
 
+**The version only for Chinese language.**
+
 ## Overview
 The process of the FacebookWebCrawler.py
 1. Search the keyword in the search bar, then click the post and choose the latest post and year.
 2. The program should automatically click the "show more".
 3. Store urls with specific conditions.
 
+## The environemnt
 
-
-
-## Installation
 + Python version  ```3.10.5```
++ ChromeDriver 
+
+## Download the ChromeDriver
+**The ChromDriver version should be the same or newer than your Google Chrome**
+
++ First, you need to Check your Google Chrome version
+  1. On your computer, open Chrome. See steps for Android or iOS.
+  2. At the top right, look at More.
+  3. Click Help > About Chrome.
+
++ Second, download the chromedriver and put into the same folder.
+
+[Download ChromeDriver](https://chromedriver.chromium.org/downloads)
+
+## Instasll the required package
 
 + Run ``` pip install -r requirements.txt``` or ```pip3 install -r requirements.txt``` to install the required packages
 
 ## Execution
 + Run ```python FacebookWebCrawler.py``` or ```python3 FacebookWebCrawler.py``` to execute the program. 
 
-![prompt](img/prompt.png)
+Searching for a keyword 
 
-+ You can type the text you want to generate.
+![image](https://user-images.githubusercontent.com/79703512/203686504-cde28c9c-a3c3-460d-a44c-eec6f4376b53.png) wholesales
 
-![prompt2](img/prompt2.png)
+The year of the article
 
-+ Then, choose the artwork style
+![image](https://user-images.githubusercontent.com/79703512/203686600-e04a95b4-c5ce-42b7-aad5-3fca18f3c79a.png) 2022
 
+The specific conditions in the urls
 
-+ Have fun for the artwork!
+![image](https://user-images.githubusercontent.com/79703512/203686665-80189644-fada-4da1-85b7-357fbb384b49.png) https
 
+Success: Successful to Click the "show more"
 
-## For more artwork, follow me on Instagram, Twitter, and Facebook
+New URL: Find the urls that meets the criteria
 
-[Instagram](https://www.instagram.com/dream.artist777/)
+![image](https://user-images.githubusercontent.com/79703512/203688466-6e5d1ae9-bbfb-4d98-b740-5fb809bee2fe.png)
 
-[Twitter](https://twitter.com/AiDreamart777)
+![image](https://user-images.githubusercontent.com/79703512/203688958-c5d10860-911a-4482-a6b6-9f1ccbd77b0f.png)
 
-[Facebook](https://www.facebook.com/profile.php?id=100085971112927)
+## Follow my Socialmedia
+
+[LinkedIn](https://www.linkedin.com/in/mingyi-huang/)
